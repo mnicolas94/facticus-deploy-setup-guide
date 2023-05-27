@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b80c7c2b6784211a13f23bbafb0e6bd, type: 3}
   m_Name: DeploySettings
   m_EditorClassIdentifier: 
-  _workflowId: 
+  _workflowId: build_and_deploy
   _gitDirectory: 
   _defaultAssetDirectory: Assets/Editor/Deploy
   _notifyPlatform:
-    rid: -2
+    rid: 5901023464795144192
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    - rid: 5901023464795144192
+      type: {class: TelegramNotifyPlatform, ns: Deploy.Editor.NotifyPlatforms, asm: com.facticus.deploy.editor}

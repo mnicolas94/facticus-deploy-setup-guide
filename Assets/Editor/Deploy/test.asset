@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6228cd6dd744bb8b6bc1150736cb0a, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: 
+  _repositoryBranchOrTag: main
+  _overrideVariables:
+  - _variable: {fileID: 11400000, guid: b26ffc6097682bb49939f35f555c4a40, type: 2}
+    _value: {fileID: 404270873528026418}
+  _platforms:
+  - _developmentBuild: 0
+    _buildPlatform:
+      rid: 5901023464795144193
+    _deployPlatform:
+      rid: 5901023464795144194
+  references:
+    version: 2
+    RefIds:
+    - rid: 5901023464795144193
+      type: {class: Windows, ns: Deploy.Editor.BuildPlatforms, asm: com.facticus.deploy.editor}
+    - rid: 5901023464795144194
+      type: {class: Telegram, ns: Deploy.Editor.DeployPlatforms, asm: com.facticus.deploy.editor}
+      data:
+        message: Windows build
+--- !u!114 &404270873528026418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e0775bf50d43dbbb75456a790249d8, type: 3}
+  m_Name: TestVariable(Clone)
+  m_EditorClassIdentifier: 
+  _value: Overrides are working fine

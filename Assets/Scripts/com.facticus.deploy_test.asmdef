@@ -1,0 +1,17 @@
+{
+    "name": "com.facticus.deploy_test",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fd8731eefd9c3244ebcecf27d19df7e7",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
